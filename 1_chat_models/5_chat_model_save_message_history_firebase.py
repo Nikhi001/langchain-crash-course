@@ -23,8 +23,8 @@ Steps to replicate this example:
 load_dotenv()
 
 # Setup Firebase Firestore
-PROJECT_ID = "langchain-demo-abf48"
-SESSION_ID = "user_session_new"  # This could be a username or a unique ID
+PROJECT_ID = "you-are-awesome-14a56"
+SESSION_ID = "VeHWwDwV4iqUhXfV7huY"  # This could be a username or a unique ID
 COLLECTION_NAME = "chat_history"
 
 # Initialize Firestore Client
@@ -57,3 +57,4 @@ while True:
     chat_history.add_ai_message(ai_response.content)
 
     print(f"AI: {ai_response.content}")
+# the error is here because the code  didn't verify the google cloud credentials before running the code
